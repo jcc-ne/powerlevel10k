@@ -2006,7 +2006,7 @@ instant_prompt_dir() { prompt_dir; }
 ################################################################
 # Docker machine
 prompt_docker_machine() {
-  _p9k_prompt_segment "$0" "magenta" "$_p9k_color1" 'SERVER_ICON' 0 '' "${DOCKER_MACHINE_NAME//\%/%%}"
+  _p9k_prompt_segment "$0" "white" "white" 'SERVER_ICON' 0 '' "${DOCKER_MACHINE_NAME//\%/%%}"
 }
 
 _p9k_prompt_docker_machine_init() {
